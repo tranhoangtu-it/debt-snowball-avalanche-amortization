@@ -1,0 +1,42 @@
+{
+  "name": "debt-snowball-avalanche-amortization",
+  "version": "1.0.0",
+  "description": "Zero-dependency Mortgage, Credit Card Payoff (Debt Snowball vs. Debt Avalanche) & Extra-Payment Amortization Engine in ES-modules + CLI.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "debt-payoff": "./bin/debt-payoff.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "amortization",
+    "debt-snowball",
+    "debt-avalanche",
+    "mortgage-calculator",
+    "loan-calculator",
+    "personal-finance",
+    "fintech",
+    "credit-card-payoff",
+    "extra-payment",
+    "financial-planning"
+  ],
+  "author": "Tran Hoang Tu <tranhoangtu.it@gmail.com> (https://tuth.site)",
+  "license": "MIT",
+  "homepage": "https://finplan-pro.tranhoangtu-it.workers.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tranhoangtu-it/debt-snowball-avalanche-amortization.git"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
